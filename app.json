@@ -17,11 +17,11 @@
       },
       "BOT_TOKEN": {
         "description": "The telegram bot token that you get from @BotFather.",
-        "required": true
+        "required": 5050405993:AAF1xKBOyIWfhXobtXWbwTM6z5p8_jJuAOE
       },
       "GDRIVE_FOLDER_ID": {
         "description": "This is the folder ID of the Google Drive Folder to which you want to upload all the mirrors.",
-        "required": true
+        "required": 1NtTrzlc2J1AaEjGdDLC5cjRw5nEyb6qS
       },
       "DOWNLOAD_DIR": {
         "description": "The path to the local folder where the downloads should be downloaded to.",
@@ -35,7 +35,7 @@
       },
       "OWNER_ID": {
         "description": "The Telegram User ID of the Owner of the Bot. Get it by using /info in @MissRose_bot.",
-        "required": true
+        "required": 958343496
       },
       "AUTO_DELETE_MESSAGE_DURATION": {
         "description": "Interval of time (in seconds), after which the bot deletes it's message (and command message) which is expected to be viewed instantly. Note: Set to -1 to never automatically delete messages.",
@@ -44,7 +44,7 @@
       },
       "IS_TEAM_DRIVE": {
         "description": "Set to 'True' if GDRIVE_FOLDER_ID is from a Team Drive else False or Leave it empty.",
-        "required": false
+        "required": True
       },
       "USE_SERVICE_ACCOUNTS": {
         "description": "Whether to use Service Accounts or not. For this to work see 'Using Service Accounts' in repo.",
@@ -60,19 +60,19 @@
       },
       "TELEGRAM_API": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "required": true
+        "required": 8229439
       },
       "TELEGRAM_HASH": {
         "description": "This is to authenticate to your Telegram account for downloading Telegram files. You can get this from https://my.telegram.org.",
-        "required": true
+        "required": c7114942115ca22238d0fa3f1606f168
       },
       "HEROKU_API_KEY": {
         "description": "Your Heroku API key, get it from https://dashboard.heroku.com/account.",
-        "required": true
+        "required": abb3f32a-cc5f-4942-96e0-d7a834f71c59
       },
       "HEROKU_APP_NAME": {
         "description": "Add the Heroku app name here.",
-        "required": true
+        "required": buzzabot
       },
       "UPSTREAM_REPO": {
         "description": "Link for Bot Upstream Repo, If you want default update, Fill https://github.com/heshan2/mirror-telegrambot",
